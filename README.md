@@ -1,7 +1,7 @@
 # Wumpus Game
 
 ### Introduction:
-This project was the final project for our C/C++ class. We were instructed to completely write our own version of the game *Hunt the Wumpus* in C++ 17. The project was loosly based on the introduction scene of *Indiana Jones and the Raiders of the Lost Ark*. Using text inputs, the player is able to navigate around a randomly generated map looking for bags of sands to swap for the idol statue. Descriptions are given to the player to help them navigate around the map to avoid traps and find the artifact. The program showcases text input and parsing, memory management, random probability calculations, and proper object oriented design.
+This project served as the final assignment for our C/C++ programming course. We were tasked with independently developing a complete version of Hunt the Wumpus using C++17. Our implementation was loosely inspired by the opening scene of Indiana Jones and the Raiders of the Lost Ark. Through text-based inputs, players navigate a randomly generated map in search of bags of sand to exchange for an idol statue. Descriptive cues are provided to assist players in avoiding traps and successfully locating the artifact. The project demonstrates key programming concepts, including text input handling and parsing, memory management, random probability generation, and robust object-oriented design.
 
 ## How to Build the project:
 This project used g++ with visual studio and codelite to build this project in C++ 17.
