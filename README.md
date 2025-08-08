@@ -1,15 +1,36 @@
-# Wumpus Game
+# Text-Based Indiana Jones Adventure
 
-### Introduction:
-This project served as the final assignment for our C/C++ programming course. We were tasked with independently developing a complete version of Hunt the Wumpus using C++17. Our implementation was loosely inspired by the opening scene of Indiana Jones and the Raiders of the Lost Ark. Through text-based inputs, players navigate a randomly generated map in search of bags of sand to exchange for an idol statue. Descriptive cues are provided to assist players in avoiding traps and successfully locating the artifact. The project demonstrates key programming concepts, including text input handling and parsing, memory management, random probability generation, and robust object-oriented design.
+## Overview
 
-## How to Build the project:
-This project used g++ with visual studio and codelite to build this project in C++ 17.
-To build this project navigate into the src folder and run the following command:
-- g++ -Wall -std=c++17 *.cpp -o IndianaJonesGame.exe
+This project is a C++ recreation of the classic **Hunt the Wumpus** game, reimagined as an Indiana Jones–inspired text adventure. It showcases algorithmic game design, interactive storytelling through the console, and thoughtful state-driven logic—all crafted for clarity and engagement.
 
-## Debug mode:
-Debug mode is accessed through the main menu when the game is launched. Simply input 'd' into the main menu and you will enter a seeded run of the game. It will also print the map out after every move to better show where you are in the map. If you need to debug the random games, you can simply input 'm' when the game asks for actions and it will print the map out.
+## Objective
 
-## g++ Version Output:
-g++ (MinGW.org GCC-6.3.0-1) 6.3.0 Copyright (C) 2016 Free Software Foundation, This is free software; see the source for copying conditions. There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+To deliver a compelling text-only game experience using C++ by modeling a cave-based exploration where players avoid hazards and aim to confront the elusive Wumpus. The project demonstrates procedural world generation, event-driven design, and structured command handling, delivering a robust and entertaining console experience.
+
+## Key Features
+
+- **Classic-Style Gameplay**: Players navigate rooms, avoid traps (e.g., guards, boulders), and track a hidden Idol through commands like "move", "shoot", and "sense".
+- **Procedural Environment**: Randomized cave layout on startup ensures each game session offers a fresh challenge.
+- **Hazard Dynamics**:
+  - **Boulder**: Chase the player to a random position on the map.
+  - **Guards**: End the game upon being caught.
+  - **Sand**: Allows the player to fill a bag with sand
+  - **Idol**: The player can swap the Idol with the bag of sand to win.
+- **Descriptive Console Feedback**: Provides contextual sensory indicators (e.g., "You hear a rumbling in the distance") to guide decision-making.
+- **Lightweight Architecture**: Built entirely in C++ without external libraries beyond the standard library.
+
+## Technical Design
+
+- **State Management**: Represents rooms, hazards, and adjacency using clean data structures and graph logic.
+- **Command Interface**: Parses and executes player input for game actions, handling edge cases effectively.
+- **Random Initialization**: Ensures fair and replayable gameplay with new cave layouts for each run.
+- **User Feedback Loop**: Maintains game flow clarity with concise room descriptions and action outcomes.
+
+## Gameplay Experience
+
+- Prompt-based navigation with clear command feedback.
+- Dynamic game world with surprises and emergent strategy.
+- Ideal for learning branching logic, state-driven programming, and procedural design in C++.
+
+---
