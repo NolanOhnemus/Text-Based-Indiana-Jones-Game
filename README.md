@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a C++ recreation of the classic **Hunt the Wumpus** game, reimagined as an Indiana Jones–inspired text adventure. It showcases algorithmic game design, interactive storytelling through the console, and thoughtful state-driven logic—all crafted for clarity and engagement.
+This project is a C++ recreation of the classic **Hunt the Wumpus** game, reimagined as an Indiana Jones–inspired text adventure. It showcases algorithmic game design, interactive storytelling through the console, and thoughtful state-driven logic, all crafted for clarity and engagement.
 
 ## Objective
 
